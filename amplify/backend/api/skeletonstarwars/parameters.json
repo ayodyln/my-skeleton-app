@@ -1,0 +1,5 @@
+{
+  "AppSyncApiName": "skeletonstarwars",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false
+}

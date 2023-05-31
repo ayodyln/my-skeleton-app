@@ -17,6 +17,9 @@
           "appId": "dwlkum2dyny3e",
           "type": "cicd"
         }
+      },
+      "api": {
+        "skeletonstarwars": {}
       }
     }
   }
