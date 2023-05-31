@@ -9,6 +9,9 @@
 	import { AppShell, AppBar } from '@skeletonlabs/skeleton'
 
 	import { storePopup } from '@skeletonlabs/skeleton'
+
+	export const prerender = true
+
 	storePopup.set({ computePosition, autoUpdate, offset, shift, flip, arrow })
 </script>
 
