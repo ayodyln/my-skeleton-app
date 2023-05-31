@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-skeletonstarwars-dev-114105-authRole",
+      "UnauthRoleArn": "arn:aws:iam::265319726269:role/amplify-skeletonstarwars-dev-114105-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::265319726269:role/amplify-skeletonstarwars-dev-114105-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-skeletonstarwars-dev-114105-deployment",
+      "UnauthRoleName": "amplify-skeletonstarwars-dev-114105-unauthRole",
+      "StackName": "amplify-skeletonstarwars-dev-114105",
+      "StackId": "arn:aws:cloudformation:us-west-2:265319726269:stack/amplify-skeletonstarwars-dev-114105/52a3e6e0-ffda-11ed-8656-06b19b738523",
+      "AmplifyAppId": "dwlkum2dyny3e"
+    }
+  }
+}

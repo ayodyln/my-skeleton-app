@@ -1,5 +1,5 @@
 {
-	"name": "my-skeleton-app",
+	"name": "svelte-skeleton-starwars",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
