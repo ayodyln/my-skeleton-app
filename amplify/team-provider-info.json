@@ -10,6 +10,14 @@
       "StackName": "amplify-skeletonstarwars-dev-114105",
       "StackId": "arn:aws:cloudformation:us-west-2:265319726269:stack/amplify-skeletonstarwars-dev-114105/52a3e6e0-ffda-11ed-8656-06b19b738523",
       "AmplifyAppId": "dwlkum2dyny3e"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "dwlkum2dyny3e",
+          "type": "cicd"
+        }
+      }
     }
   }
 }
