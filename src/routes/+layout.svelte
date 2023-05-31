@@ -10,6 +10,10 @@
 
 	import { storePopup } from '@skeletonlabs/skeleton'
 
+	import { Amplify, DataStore } from 'aws-amplify'
+	import awsExports from '../aws-exports'
+	Amplify.configure({ ...awsExports })
+
 	// Prerender html pages
 	export const prerender = true
 

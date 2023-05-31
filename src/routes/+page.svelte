@@ -3,6 +3,8 @@
 	import Pagination from '../components/Pagination.svelte'
 	import CharacterCard from '../components/CharacterCard.svelte'
 	import LoadingCharacterCard from '../components/LoadingCharacterCard.svelte'
+	import { DataStore } from 'aws-amplify'
+	import { Todo } from '../models'
 
 	let paginationData: any = {}
 	let starwarsCharacters: any[] = []
@@ -21,7 +23,7 @@
 				}
 			}
 		}
-		
+
 		if (!direction) {
 			if (paginationData.previous !== null) {
 				starwarsCharacters.length = 0
@@ -46,6 +48,13 @@
 			console.log(paginationData)
 		} catch (error) {
 			console.log(error)
+		}
+
+		try {
+			const posts = await DataStore.query(Todo)
+			console.log('Posts retrieved successfully!', JSON.stringify(posts, null, 2))
+		} catch (error) {
+			console.log('Error retrieving posts', error)
 		}
 	})
 </script>
